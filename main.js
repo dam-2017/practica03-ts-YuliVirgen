@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var cadena_1 = require("./cadena");
+var operaciones_1 = require("./operaciones");
+var cadena;
+var operaciones;
+cadena = new cadena_1.Cadena("hola yuli");
+console.log("Esta es la clase cadena");
+console.log("La palabra: ", cadena.palindromo);
+console.log("Las Vocales son: ", cadena.contadorVocales);
+console.log("Total de letras: ", cadena.contarLetras);
+console.log("Total de Palabras: ", cadena.contarPalabra);
+console.log("Esta es la clase operaciones");
+operaciones = new operaciones_1.Operaciones(3, 15);
+console.log("La suma es: ", operaciones.suma);
+console.log("La resta es: ", operaciones.resta);
+console.log("El factorial", operaciones.factorial(3));
+console.log("El numero es: ", operaciones.primo);
